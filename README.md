@@ -17,4 +17,5 @@ cp -a pearl ~/.config/pearl
 Note: `pearl/matugen/writer.lock` and `pearl/qt/writer.lock` are empty runtime
 lock files and can be ignored or deleted after restoring.
 
-This does not come with my wallpaper set. Please add your own one.
+This does not come with my wallpaper set by default ;  Please add your own one or set it manually. I do not like forcing colour scheme and wallpaper~
+( also github fuck you its colour not color)
