@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "assistant": {
+    "enabled": false,
+    "runtime": {
+      "source": "system",
+      "executable": ""
+    },
+    "compute": {
+      "mode": "cpu",
+      "backend": "cuda",
+      "device_id": "",
+      "offload_layers": null,
+      "gpu_memory_target_mib": null,
+      "allow_cpu_fallback": true
+    },
+    "model_id": "liquid-lfm25-350m-q4km",
+    "custom_model": "",
+    "providers": [
+      {
+        "id": "engine-1200455019",
+        "name": "New search engine",
+        "kind": "searxng",
+        "enabled": false,
+        "endpoint": "",
+        "engine_id": "",
+        "language": "en",
+        "safe_search": true
+      },
+      {
+        "id": "engine-1201804510",
+        "name": "duckduckgo",
+        "kind": "searxng",
+        "enabled": false,
+        "endpoint": "https://duckduckgo.com",
+        "engine_id": "",
+        "language": "en",
+        "safe_search": true
+      }
+    ],
+    "default_provider_id": "",
+    "search_mode": "default",
+    "read_pages": true,
+    "context_tokens": 0,
+    "answer_tokens": 0,
+    "cpu_threads": 0,
+    "idle_unload_seconds": 60
+  },
+  "desktop_icons": {
+    "enabled": true,
+    "output": "",
+    "icon_size": 32,
+    "show_hidden": false,
+    "arrangement": "automatic"
+  },
+  "notifications": {
+    "filters_enabled": true,
+    "rules": []
+  },
+  "night_light": {
+    "enabled": false,
+    "temperature_kelvin": 4500,
+    "schedule": "manual",
+    "start_minute": 1200,
+    "end_minute": 420
+  },
+  "plugins": {
+    "entries": []
+  },
+  "idle": {
+    "ac": {
+      "lock_seconds": 0,
+      "suspend_seconds": 0,
+      "screen_off_seconds": 0,
+      "dim": false
+    },
+    "battery": {
+      "lock_seconds": 0,
+      "suspend_seconds": 0,
+      "screen_off_seconds": 300,
+      "dim": true
+    },
+    "automatic_saver": 30
+  },
+  "theme": {
+    "mode": "dynamic",
+    "package_id": "community.riverstone",
+    "palette_id": "",
+    "style_id": "",
+    "catalog_revision": "31bc86d9893ba29c4b29cb8b1b012b01a37107e25ea61eb351a641b8cd17164b",
+    "snapshot_digest": "7fe3f9451f91e5f4051651474e0a8cd6400f6beccbbcf5e25b1ec50ab78a89b2",
+    "variant": "dark",
+    "seed": "#6750a4",
+    "source": "wallpaper",
+    "gtk_name": "",
+    "sync_borders": true
+  },
+  "qt": {
+    "enabled": true,
+    "style": "darkly",
+    "targets": {
+      "qt5": true,
+      "qt6": true
+    },
+    "palette": "follow_pearl",
+    "sync_font": true,
+    "icon_theme": "",
+    "darkly": {
+      "corner_radius": null,
+      "sync_reduced_motion": true,
+      "sync_density": false,
+      "sync_kde_colors": true
+    }
+  },
+  "matugen": {
+    "enabled": true,
+    "defaults_revision": 1,
+    "colors": {
+      "source": "follow_pearl",
+      "seed": "#6750a4"
+    },
+    "applications": {
+      "zed": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "equibop": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "fluxer": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "starship": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "steam": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "gtk": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "qt5ct": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "qt6ct": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "kcolorscheme": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "ghostty": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "kitty": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "foot": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "alacritty": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "wezterm": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "nvim": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "vscode": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "emacs": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "firefox": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "zenbrowser": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "pywalfox": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "vesktop": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "vencord": {
+        "mode": "theme",
+        "profile_id": ""
+      },
+      "fcitx5": {
+        "mode": "theme",
+        "profile_id": ""
+      }
+    },
+    "snapshot_digest": "1964516d079589223698160b2d184af032e13de4e5fe614b6ae34836c3c64404",
+    "catalog_revision": "39ab88756e3e5a2e5a7e90e44a01dfd3c8f3e66f523316eb6c659d2b51932357"
+  },
+  "wallpaper": {
+    "mode": "cover",
+    "path": "/home/laptop/Downloads/levi-ackerman-3840x2743-10443.jpg",
+    "color": "#141219",
+    "crops": [],
+    "slideshow": {
+      "enabled": false,
+      "folder": "",
+      "interval_seconds": 900,
+      "order": "sequential",
+      "transition": "fade",
+      "transition_ms": 420
+    }
+  },
+  "font": "",
+  "font_size": 16,
+  "density": "normal",
+  "reduced_motion": false,
+  "bar": {
+    "clocks": [],
+    "mode": "always",
+    "background_opacity": {
+      "mode": "custom",
+      "percent": 36
+    },
+    "launcher_icon": {
+      "kind": "default",
+      "value": ""
+    },
+    "workspace_mode": "large",
+    "running_apps_per_window": true,
+    "resource_mode": "icon",
+    "resource_series": {
+      "cpu": true,
+      "gpu": true,
+      "memory": true,
+      "network": true
+    },
+    "islands": true,
+    "edge": "bottom",
+    "size": 46,
+    "groups": {
+      "left": "workspaces,title",
+      "center": "clock,resources,launcher",
+      "right": "media,tray,audio,network,battery,notifications"
+    }
+  },
+  "dock": {
+    "enabled": true,
+    "edge": "top",
+    "mode": "autohide",
+    "icon_size": 32,
+    "margin": 8
+  },
+  "pinned_apps": [],
+  "application_launchers": [],
+  "outputs": [],
+  "popup": {
+    "dismiss_outside": true,
+    "placement": "centered",
+    "max_width": 716,
+    "max_height": 800
+  },
+  "exports": []
+}

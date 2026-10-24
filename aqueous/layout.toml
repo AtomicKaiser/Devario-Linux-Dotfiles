@@ -1,0 +1,9 @@
+# Floating windows are Aqueous's stacking layout.
+[layout]
+default = "dwindle"
+border_focused = 0xFFFFB4AA
+border_normal = 0xFFA08C8A
+border_urgent = 0xFFFFB4AB
+border_width = 0
+gaps_inner = 8
+gaps_outer = 7

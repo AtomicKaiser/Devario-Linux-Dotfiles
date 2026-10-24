@@ -1,0 +1,23 @@
+[input.mouse]
+accel_profile = "flat"
+accel_speed = 0.0
+natural_scroll = false
+left_handed = false
+middle_emulation = false
+dwt = false
+
+[input.touchpad]
+accel_profile = "adaptive"
+accel_speed = 0.0
+natural_scroll = true
+tap = true
+dwt = true
+left_handed = false
+middle_emulation = false
+click_method = "clickfinger"
+scroll_method = "two-finger"
+focus_follow_mouse = true
+focus_new_windows = true
+
+[input]
+xkb_layout = "gb"
