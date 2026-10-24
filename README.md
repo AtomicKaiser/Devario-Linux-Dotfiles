@@ -1,4 +1,5 @@
 # Devario Linux Dotfiles
+# THIS IS A VERY PERSONALIZED THEME + WAY OF SETTING UP A WM 
 
 Configuration backups for the Devario Linux desktop.
 
@@ -19,3 +20,4 @@ lock files and can be ignored or deleted after restoring.
 
 This does not come with my wallpaper set by default ;  Please add your own one or set it manually. I do not like forcing colour scheme and wallpaper~
 ( also github fuck you its colour not color)
+
